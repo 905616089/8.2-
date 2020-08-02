@@ -84,8 +84,8 @@ function scrollFun(event) {
             }
 
             for (var i = pages * 4; i < pages * 4 + 4; i++) {
-
-                rihghtImg[i].style.transition = "all 0.5s ease-out " + i * 0.2 + "s";
+                var j=i-4;
+                rihghtImg[i].style.transition = "all 0.5s ease-out " + j * 0.2 + "s";
                 rihghtImg[i].style.opacity = 1;
                 rihghtImg[i].style.paddingLeft = 0;
             }
