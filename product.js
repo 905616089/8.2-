@@ -82,8 +82,9 @@ setInterval(function () {
 }, 3000)
 
 //数据
+var value = document.querySelectorAll(".num-value");
 function numdata() {
-    var value = document.querySelectorAll(".num-value");
+    
     var a = 0;
     var p = 0;
     var l = 0
@@ -113,7 +114,23 @@ function numdata() {
         }
     }, 10)
 }
-numdata();
+
+var numbers=document.querySelector(".number-container");
+
+var tops=numbers.offsetTop-document.documentElement.clientHeight;
+window.onscroll=function(){
+    var scoll=document.documentElement.scrollTop;
+    if(value[0].innerHTML==""){
+        if(scoll==tops||scoll>tops){
+            numdata()
+        }
+        return;
+    }else{
+        return;
+    }
+   
+}
+
 
 //底部按钮
 var cont = 0;

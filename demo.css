@@ -108,7 +108,6 @@ body::-webkit-scrollbar{
 .container-center{
     float: left;
     width: 20%;
-    /* top替换70 */
     margin-top: 70px;    
     text-align: center;
     z-index: 10;
@@ -116,10 +115,13 @@ body::-webkit-scrollbar{
     transition: all 2s ease-out;
     overflow: hidden;
     box-sizing: border-box;
+    padding: 0 73px;
+    box-sizing: border-box;
 }
 .container-center img{
   margin-top: 60px;
   opacity: 0;
+  width: 100%;
   height: auto;
   transition: all 2s ease-out;
 }
