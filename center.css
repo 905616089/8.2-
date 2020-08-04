@@ -87,14 +87,73 @@ html,body{
     position: relative;
     top: 45%;
 }
+.content{
+    width: 100%;
+    height: 1300px;
+    padding: 50px 90px;
+    box-sizing: border-box;
+}
+.content-container{
+    width: 100%;
+    height: 100%;
+    
+}
+.imglist{
+    width: 100%;
+    height: 90%;
+
+}
+.btnlist{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding: 30px 600px;
+    box-sizing: border-box;
+
+}
+.imglist-div{
+    width: 33.333333%;
+    height: 50%;
+    float: left;
+    text-align: center;
+}
+.imglist-div img{
+    width: 395px;
+    height: 395px;
+    margin-bottom: 20px;
+}
+.imglist-title1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.imglist-title2{
+    font-size: 13px;
+}
 
 
+.btn1{
+  
+    width: 54px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
 
-
-
-
-
-
+.btn2{
+    width: 54px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
 
 
 
